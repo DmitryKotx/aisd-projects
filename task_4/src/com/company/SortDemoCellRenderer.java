@@ -9,6 +9,17 @@ import java.util.List;
 public class SortDemoCellRenderer {
     public static void cellRenderer(List<SortState> list, int k, JTable result) {
         TableCellRenderer renderer;
+        if (k == list.size()-1 || k == 0) {
+            Color color = k == list.size() - 1 ? Color.GREEN : Color.GRAY;
+            for (int i = 0; i < list.get(k).getArr().length; i++) {
+                renderer = new DefaultTableCellRenderer();
+                Object value = result.getValueAt(0, i);
+                result.getColumnModel().getColumn(i).setCellRenderer(renderer);
+                JLabel c = (JLabel) renderer.getTableCellRendererComponent(result, value, true, false, 0, i);
+                c.setBackground(color);
+            }
+            return;
+        }
         for (int i = list.get(k).getLeft(); i < list.get(k).getRight(); i++) {
             renderer = new DefaultTableCellRenderer();
             Object value = result.getValueAt(0, i);

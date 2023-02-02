@@ -35,11 +35,10 @@ public class FrameMain extends JFrame {
     private JTextField compare2;
     private JTextField textInserted;
 
-    private int k = 0;
+    private int k = -1;
     private Timer timer;
     List<SortState> list = new ArrayList<>();
-    int size;
-    SortStateManager manager = new SortStateManager(null);
+
     StateViewer viewer;
 
 
@@ -99,24 +98,6 @@ public class FrameMain extends JFrame {
             }
 
         });
-        if (k == 0) {
-            backButton.setEnabled(false);
-        }
-
-
-            backButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                manager.prev();
-            }
-        });
-            forwardButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                manager.next();
-            }
-        });
-
 
 
        Start.addActionListener(new ActionListener() {
@@ -124,28 +105,21 @@ public class FrameMain extends JFrame {
             public void actionPerformed(ActionEvent actionEvent) {
                 try {
                     int[] data = JTableUtils.readIntArrayFromJTable(tableInput1);
+                    assert data != null;
                     list = InsertionSort.sort(data);
-                    size = list.get(k).getArr().length;
-                    timer = new Timer(100, e -> {
+                    timer = new Timer(200, e -> {
                         if(timer.isRunning()) {
                             Start.setEnabled(false);
+                            backButton.setEnabled(false);
+                            forwardButton.setEnabled(false);
                         }
-
-                        if (k == list.size()-1) {
-                            Start.setEnabled(true);
-                            k = 0;
-                            timer.stop();
-                        }
-                        if (k != 0) {
-                            backButton.setEnabled(true);
-                        }
+                        k++;
                         SortDemoTextRenderer.textRenderer(list, k, result, compare1, compare2, change1, change2, textInserted, text_I, text_J);
                         SortDemoCellRenderer.cellRenderer(list,k,result);
-                            k++;
 
-                        if (k == list.size()) {
-                            k = 0;
+                        if (k == list.size()-1) {
                             timer.stop();
+                            backButton.setEnabled(true);
                         }
                     });
 
@@ -160,44 +134,42 @@ public class FrameMain extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 timer.stop();
-                return;
+                backButton.setEnabled(true);
+                forwardButton.setEnabled(true);
+                Start.setEnabled(true);
             }
         });
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                if (k < list.size()) {
+                    forwardButton.setEnabled(true);
+                    Start.setEnabled(true);
+                }
+                k--;
+                SortDemoTextRenderer.textRenderer(list, k, result, compare1, compare2, change1, change2, textInserted, text_I, text_J);
+                SortDemoCellRenderer.cellRenderer(list,k,result);
                 if (k == 0) {
                     backButton.setEnabled(false);
                 }
-                if (k == list.size()) {
-                    k--;
-                }
-                k--;
-                size = list.get(k).getArr().length;
-                SortDemoTextRenderer.textRenderer(list, k, result, compare1, compare2, change1, change2, textInserted, text_I, text_J);
-                SortDemoCellRenderer.cellRenderer(list,k,result);
-                if (k == list.size()) {
-                    k = 0;
-                }
-
             }
         });
 
         forwardButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (k != 0) {
+                if (k > 0) {
                     backButton.setEnabled(true);
                 }
-                if (k == list.size() && !list.isEmpty()) {
-                    k = 0;
-                    return;
-                }
-                size = list.get(k).getArr().length;
+
+                k++;
                 JTableUtils.writeArrayToJTable(result, list.get(k).getArr());
                 SortDemoTextRenderer.textRenderer(list, k, result, compare1, compare2, change1, change2, textInserted, text_I, text_J);
                 SortDemoCellRenderer.cellRenderer(list,k,result);
-                k++;
+                if (k == list.size()-1) {
+                    forwardButton.setEnabled(false);
+                    Start.setEnabled(false);
+                }
             }
         });
         randomButton.addActionListener(new ActionListener() {

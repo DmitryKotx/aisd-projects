@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GraphSamples:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0f30c31-7042-41d8-8fa8-a81744b8b657" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GraphSamples_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/GraphSamples_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/guru_nidi_graphviz_java_0_14_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/guru_nidi_graphviz_java_0_14_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphSamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/task_7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/AdjListsDigraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/AdjListsDigraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/AdjListsGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/AdjListsGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/AdjMatrixDigraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/AdjMatrixDigraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/AdjMatrixGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/AdjMatrixGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/Digraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/Digraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/GraphAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/GraphAlgorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/GraphUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/GraphUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/WeightedDigraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/WeightedDigraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/WeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/WeightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphDemoFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphDemoFrame.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphDemoFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphDemoFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphvizExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphvizExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/util/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/util/ArrayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/util/DrawUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/util/DrawUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/util/JTableUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/util/JTableUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/util/SwingUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/util/SwingUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/util/dummy/DefaultNotSupportedCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/util/dummy/DefaultNotSupportedCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/util/dummy/DefaultNotSupportedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/util/dummy/DefaultNotSupportedMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/util/dummy/DefaultNotSupportedSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/util/dummy/DefaultNotSupportedSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/util/dummy/DefaultNotSupportedSortedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/util/dummy/DefaultNotSupportedSortedMap.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1alEbUYNN2KGvhqwx5T8f1PY4t1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/myGit/AISD_projects/task_6",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.vsu.cs.course1.graph" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.course1.graph.demo.Program" />
+      <module name="task_7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="task_7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="task_7" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0f30c31-7042-41d8-8fa8-a81744b8b657" name="Default Changelist" comment="" />
+      <created>1587301851859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587301851859</updated>
+      <workItem from="1675343063779" duration="152000" />
+      <workItem from="1675343230592" duration="72000" />
+      <workItem from="1675343633700" duration="15000" />
+      <workItem from="1675343780647" duration="62000" />
+      <workItem from="1675343867393" duration="14000" />
+      <workItem from="1675343912212" duration="12000" />
+      <workItem from="1675343962429" duration="63000" />
+    </task>
+    <task id="LOCAL-00001" summary="Second commit">
+      <created>1622212057858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622212057858</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Second commit">
+      <created>1622786210980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622786210980</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphvizExamples.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphDemoFrame.java</url>
+          <line>398</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
